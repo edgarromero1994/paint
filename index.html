@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Dibujo en Canvas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplicación de Dibujo en Canvas</h1>
+        <div class="toolbar">
+            <input type="color" id="colorPicker">
+            <button id="brushButton"><i class="fas fa-paint-brush"></i></button>
+            <button id="eraserButton"><i class="fas fa-eraser"></i></button>
+            <button id="saveButton"><i class="fas fa-save"></i> Guardar</button>
+            <button id="loadButton"><i class="fas fa-folder-open"></i> Cargar</button>
+        </div>
+        <canvas id="drawingCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
